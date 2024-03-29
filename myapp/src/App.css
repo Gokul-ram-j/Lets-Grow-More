@@ -1,0 +1,54 @@
+
+.intro{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro>img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.databtn{
+  margin: 10px;
+}
+
+
+
+/* -------------------------------------- */
+.usercard{
+  padding: 5px;
+  border: 2px solid rgba(77, 76, 76, 0.724);
+  margin-bottom: 5px;
+}
+
+.usercard:hover{
+  box-shadow: 2px 2px 5px rgba(50, 48, 48, 0.692),-2px -2px 5px rgba(50, 48, 48, 0.692);
+}
+
+.usercard>img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.usercard>table{
+  width: fit-content;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 20px;
+}
+td{
+  padding-right: 15px;
+}
+
+td:nth-child(2){
+  font-weight: bold;
+}
